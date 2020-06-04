@@ -1,0 +1,347 @@
+@font-face {
+    src: url(../assets/fonts/loki_cola/LOKICOLA.TTF);
+    font-family: cocaColaFont;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    background-color:rgb(32, 32, 32);
+    padding-bottom: 70px;
+}
+
+.main_contents {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+    /*font-family: cocaColaFont;*/
+}
+
+#main_text {
+    text-align: center;
+    margin: 5%;
+    width: 90%;
+    display: block;
+    background-color: rgba(247, 247, 247, 0.5);
+    padding: 40px;
+    border-radius: 10px;
+}
+
+#main_text h2 {
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+#main_text h3 {
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+#main_text p {
+    font-size: 20px;
+    margin: 0px;
+    line-height: 1.2;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(65, 65, 65);
+    box-shadow: 0px 2px 4px -1px rgba(0, 0, 0, 0.5), 0px 4px 5px 0px rgba(0, 0, 0, 0.5), 0px 1px 10px 0px rgba(0, 0, 0, 0.5);
+}
+
+.card-title, .card-text {
+    color: white;
+}
+
+.img-thumbnail {
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    max-width: 100%;
+    height: auto;
+}
+
+.navbar-batman {
+    background-color: #000000;
+    border-width: 0px;
+	min-height: 100px;
+}
+
+.nav-link {
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+
+/* CSS rule to overwrite the bootstrap.css text hover color on the navbar
+*/
+.navbar-batman .navbar-nav > li > button:hover, 
+.navbar-batman .navbar-nav > li > button:focus {
+    text-decoration: underline;
+    outline: none;
+}
+
+.navbar-batman .navbar-nav .nav-item {
+    margin-top: 0px;
+}
+
+.nav-item {
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.navbar-batman .navbar-toggler {
+    right: 0;
+}
+
+.navbar-batman  .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1.0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.dropdown-menu {
+    text-align: -webkit-left;
+    background-color: #464646;
+    margin-top: 20px; /* Experiment to move the dropdown menu down */
+}
+
+.dropdown-menu .dropdown-item {
+    color: #ffffff;
+}
+
+.dropdown-menu .dropdown-item:hover {
+    color: #030303;
+    background-color: #e98074;
+}
+
+.logo {
+    position: relative;
+    margin-right: 20px;
+    width: 173px;
+    height: 81px;
+    background-color: white;
+    border-radius: 400px;
+    border: none;
+    outline: 0 !important;
+}
+
+.bat-base {
+    position: absolute;
+    background-color: black;
+    width: 129px;
+    height: 47px;
+    top: 22px;
+    left: 22px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.wing-cover-1 {
+    background-color: white;
+    width: 39px;
+    height: 47px;
+    border-radius: 50%;
+}
+
+.wing-margin-1 {
+    margin-left: -20px;
+}
+
+.wing-cover-2 {
+    background-color: white;
+    width: 55px;
+    height: 31px;
+    border-radius: 50%;
+}
+
+.wing-margin-2 {
+    margin-top: -24px;
+    margin-left: 13px;
+    transform: rotate(30deg);
+}
+
+.wing-margin-3 {
+    margin-top: -31px;
+    margin-left: 62px;
+    transform: rotate(150deg);
+}
+
+.wing-margin-4 {
+    margin-top: -54px;
+    margin-left: 110px;
+}
+
+.shoulders {
+    background-color: white;
+    width: 47px;
+    height: 31px;
+    margin-left: 41px;
+    margin-top: -68px;
+    border-radius: 60px;
+}
+
+.head {
+    background-color: black;
+    width: 13px;
+    height: 11px;
+    margin-left: 58px;
+    margin-top: -6px;
+    border-radius: 30px;
+}
+
+.ear-right {
+    width: 0;
+    height: 0;
+    border-bottom: 9px solid black;
+    border-left: 5px solid transparent;
+    margin-left: 66px;
+    margin-top: -14px;
+}
+  
+.ear-left {
+    width: 0;
+    height: 0;
+    border-bottom: 9px solid black;
+    border-right: 5px solid transparent;
+    margin-left: 58px;
+    margin-top: -9px;
+}
+
+.hide {
+    background-color: white;
+    width: 27px;
+    height: 16px;
+}
+
+.hide-left {
+    margin-top: 24px;
+}
+
+.hide-right {
+    margin-top: -16px;
+    margin-left: 102px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    background-color: #000000;
+  }
+
+.footer-text a {
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+    color: rgb(129, 129, 129);
+}
+
+.footer-text a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-text p {
+    padding: 0px;
+    margin-bottom: 0px;
+}
+
+.model-row {
+    margin-left: 20px;
+    color: white;
+}
+
+/* Small devices (landscape phones, 576px and up)
+*/
+@media (min-width: 576px) {
+    body {
+        background-image: url("../assets/images/bg.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .footer {
+        background-color: rgb(46, 46, 46);
+      }
+}
+
+/* Medium devices (tablets, 768px and up)
+*/
+@media (min-width: 768px) { 
+    body {
+        background-image: url("../assets/images/bg.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .footer {
+        background-color: rgb(27, 27, 27);
+      }
+
+    .navbar-batman {
+        background-color: rgb(27, 27, 27);
+    }
+}
+
+/* Large devices (desktops, 992px and up)
+*/
+@media (min-width: 992px) { 
+    body {
+        background-image: url("../assets/images/bg.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .footer {
+        background-color: rgb(27, 27, 27);
+      }
+
+    .navbar-batman {
+        background-color: rgb(27, 27, 27);
+    }
+ }
+
+/* Extra large devices (large desktops, 1200px and up)
+*/
+@media (min-width: 1200px) { 
+    body {
+        background-image: url("../assets/images/bg.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .footer {
+        background-color: rgb(27, 27, 27);
+      }
+
+    .navbar-batman {
+        background-color: rgb(27, 27, 27);
+    }
+ }
